@@ -1,0 +1,15 @@
+name = "UnilateralQuadraticMatrixEquations"
+uuid = "87fb985c-4dd2-4be4-bd60-7cd45a1474dd"
+authors = ["MichelJuillard <michel.juillard@mjui.fr>"]
+version = "0.1.0"
+
+[deps]
+FastLapackInterface = "29a986be-02c6-4525-aec4-84b980013641"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[compat]
+FastLapackInterface = "^1"
+LoopVectorization = "^0.12"
+julia = "^1.6"
